@@ -258,12 +258,22 @@
 
             <!--подписка на россылку-->
             <div class="footer-box registery">
-                <p class="text-footer">подпишитесь на россылку</p>
-                <a href="" class="button secondary">Подписаться
-                    <svg class="subscribe-svg" >
-                        <use href="./images/sprite.svg#icon-iconsend"></use>
-                    </svg>
-                </a>
+                <form class="form">
+                    <p class="text-footer">подпишитесь на россылку</p>
+                    <div class="e-mail-form">
+                        <input 
+                        type="e-meil" 
+                        name="e-meil" 
+                        id="e-meil" 
+                        placeholder="E-mail"
+                        />
+                        <button class="button secondary" type="submit">Подписаться
+                            <svg class="subscribe-svg" >
+                                <use href="./images/sprite.svg#icon-iconsend"></use>
+                            </svg>    
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>

@@ -93,10 +93,12 @@
                         </div>
         
                         <div class="form-field inline">
-                            <input type="checkbox" name="" value="accept" id="accept" />
-                            <label class="policy" for="policy">Соглашаюсь с рассылкой и принимаю <span class="agreement">Условия договора</span></label>
+                            <label class="policy">Соглашаюсь с рассылкой и принимаю 
+                                <input type="checkbox" name="" value="accept" />
+                                <a href="" class="agreement">Условия договора</a>
+                            </label>
                         </div>
-
+                           
                         <button class="button" type="submit">Отправить</button>
                     </form>
                 </div>
@@ -426,12 +428,22 @@
 
             <!--подписка на россылку-->
             <div class="footer-box registery">
-                <p class="text-footer">подпишитесь на россылку</p>
-                <a href="" class="button secondary">Подписаться
-                    <svg class="subscribe-svg" >
-                        <use href="./images/sprite.svg#icon-iconsend"></use>
-                    </svg>
-                </a>
+                <form class="form">
+                    <p class="text-footer">подпишитесь на россылку</p>
+                    <div class="e-mail-form">
+                        <input 
+                        type="e-meil" 
+                        name="e-meil" 
+                        id="e-meil" 
+                        placeholder="E-mail"
+                        />
+                        <button class="button secondary" type="submit">Подписаться
+                            <svg class="subscribe-svg" >
+                                <use href="./images/sprite.svg#icon-iconsend"></use>
+                            </svg>    
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>
