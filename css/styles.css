@@ -354,19 +354,6 @@ span.close {
     color: var(--accent-color);
 }
 
-
-/* 
-span[class="label"] {
-    position: absolute;
-    
-    margin-bottom: 4px;
-    text-align: left;
-     font-size: 12px;
-    line-height: 1.167;
-    letter-spacing: 0.01em;
-    color: var(--text-color);
-} */
-
 .form-label:not(:last-child) {
     margin-top: 10px;
 }
@@ -462,12 +449,12 @@ span[class="check-box"] {
 }
 
 .check-input:checked + .check-box {
-    border: 1px solid var(--accent-color);
     background-color: var(--accent-color); 
     background-image: url(../images/svg/Vector.svg); 
     box-shadow: none;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-size: cover;
 } 
 
 .agreement-link {
